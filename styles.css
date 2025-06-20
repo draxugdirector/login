@@ -1,0 +1,48 @@
+body{
+  padding: 25px;
+  background-color: #560F00 ;
+  text-align: center;
+  color: white;
+}
+.title {
+	color: #581845;
+	background-color: #FFF4F2;
+	border-radius:20px ;
+	text-align: center;
+}
+.login{
+  background-color:  #350030;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+form {
+      width: 300px;
+      text-align: center;
+      
+    }
+    label {
+      display: flex;
+      margin-top: 10px;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: none;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      margin-left: 10px;
+    }
+.footer{
+  background-color: Black;
+  left: 0px;
+  
+}
