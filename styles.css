@@ -1,48 +1,74 @@
-body{
-  padding: 25px;
-  background-color: #560F00 ;
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #560F00;
   color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 .title {
-	color: #581845;
-	background-color: #FFF4F2;
-	border-radius:20px ;
-	text-align: center;
-}
-.login{
-  background-color:  #350030;
+  color: #350030;
+  background-color: #FFF4F2;
+  border-radius: 20px;
+  padding: 15px 25px;
   text-align: center;
-  padding: 10px;
-  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.login {
+  background-color: #350030;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  width: 320px;
+  margin-top: 20px;
 }
 
 form {
-      width: 300px;
-      text-align: center;
-      
-    }
-    label {
-      display: flex;
-      margin-top: 10px;
-    }
-    input, textarea, select {
-      width: 100%;
-      padding: 8px;
-      margin-top: 5px;
-      border: none;
-    }
-    button {
-      margin-top: 15px;
-      padding: 10px;
-      width: 100%;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      margin-left: 10px;
-    }
-.footer{
-  background-color: Black;
-  left: 0px;
-  
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
 }
